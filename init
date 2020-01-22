@@ -5,7 +5,7 @@ npm i
 
 # Removing extra files
 rm -rf .git
-rm -rf init.sh
+rm -rf init
 
 echo "Happy coding!\n"
 
