@@ -11,6 +11,9 @@
     "clean": "rm -rf dist",
     "lint": "node_modules/.bin/tslint --project ./tsconfig.json"
   },
+  "bin": {
+    "create": "./bin/cli.js"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

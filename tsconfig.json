@@ -72,7 +72,8 @@
   ],
   "exclude": [
     "node_modules",
-    "test"
+    "test",
+    "bin"
   ],
   "typeRoots": [
     "node_modules/@types"
