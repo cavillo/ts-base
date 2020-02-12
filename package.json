@@ -1,7 +1,7 @@
 {
-  "name": "debug",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ts-base",
+  "version": "0.0.1",
+  "description": "Base structure for TS project",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",

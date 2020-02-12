@@ -1,0 +1,16 @@
+kind: pipeline
+name: ts-base-node-ci
+
+steps:
+  - name: npm
+    image: plugins/npm
+    settings:
+      email:
+        from_secret: npm_email
+      username:
+        from_secret: npm_username
+      password:
+        from_secret: npm_password
+    when:
+      event: push
+      branch: master
