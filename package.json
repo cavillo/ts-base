@@ -1,5 +1,5 @@
 {
-  "name": "ts-base",
+  "name": "ts-create-base",
   "version": "0.0.1",
   "description": "Base structure for TS project",
   "main": "dist/index.js",
