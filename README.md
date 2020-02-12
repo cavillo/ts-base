@@ -3,5 +3,5 @@ Base structure for TS project
 
 ## Getting started
 ```sh
-npx ts-base create PROJECT_NAME
+npx ts-create-base PROJECT_NAME
 ```
