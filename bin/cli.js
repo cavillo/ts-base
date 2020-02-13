@@ -50,6 +50,7 @@ const createProject = () => {
     json.version = "1.0.0";
     json.author = "";
     json.license = "";
+    json.bin = {};
 
     fs.writeFileSync(packageJson, JSON.stringify(json, null, 2), 'utf8');
 
