@@ -4,7 +4,6 @@ import 'mocha';
 // TODO
 describe('Tests', async () => {
   it('Tests are running', async () => {
-
     expect(() => { }).to.not.throw();
     expect({ a: 1 }).to.not.have.property('b');
     expect([1, 2]).to.be.an('array').that.does.not.include(3);
@@ -15,10 +14,10 @@ describe('Tests', async () => {
     expect({ a: 1 }).to.be.an('object');
     expect(null).to.be.a('null');
     expect(undefined).to.be.an('undefined');
-    expect(new Error).to.be.an('error');
+    expect(new Error()).to.be.an('error');
     expect(Promise.resolve()).to.be.a('promise');
-    expect(new Float32Array).to.be.a('float32array');
-    expect(Symbol()).to.be.a('symbol');
+    expect(new Float32Array()).to.be.a('float32array');
+    expect(Symbol('symbol')).to.be.a('symbol');
 
     const myObj = {
       [Symbol.toStringTag]: 'myCustomType',
@@ -41,4 +40,3 @@ describe('Tests', async () => {
     expect(undefined).to.be.undefined;
   });
 });
-
