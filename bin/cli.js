@@ -61,6 +61,7 @@ const createProject = () => {
     cp.execSync(`rm -rf ${packageLockJson}`);
     cp.execSync(`rm -rf ${binDir}`);
     cp.execSync(`rm -rf ${gitDir}`);
+    cp.execSync(`rm .drone.yml`);
 
     // installing dependendies
     log('Installing dependendies...');
